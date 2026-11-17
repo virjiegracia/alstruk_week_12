@@ -63,6 +63,7 @@ if response.status_code == 200:
         ax4.hist(df['abilities'], bins=range(1, 6), color='purple', rwidth=0.8)
         ax4.set_xlabel("Jumlah Ability")
         ax4.set_ylabel("Frekuensi")
-        st.pyplot(fig4)
+        st.pyplot(fig4) 
 else:
     st.error("Gagal mengambil data dari PokeAPI.")
+    #dva
